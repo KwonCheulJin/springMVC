@@ -30,7 +30,6 @@ public class MappingClassController {
         return "post user";
     }
 
-
     @GetMapping("/{userId}")
     public String findUser(@PathVariable String userId) {
         return "get userId = " + userId;
